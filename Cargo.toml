@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+aws-config = "1.8.0"
+aws-sdk-sts = "1.74.0"
+aws-smithy-http-client = "1.0.5"
+aws-smithy-runtime = "1.8.3"
+aws-smithy-runtime-api = "1.8.1"
+hyper-rustls = "0.24"
+rustls = "0.21"
+tokio = { version = "1.45.1", features = ["full"] }
